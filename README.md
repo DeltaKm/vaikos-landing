@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VAIKOS - Coming Soon Landing Page
 
-## Getting Started
+Landing page "in costruzione" per VAIKOS, realizzata con Next.js, TypeScript e TailwindCSS.
 
-First, run the development server:
+## 🚀 Caratteristiche
+
+- ✨ Design moderno e responsive
+- 🎨 Gradient animato con effetti visivi
+- 📧 Form per raccolta email newsletter
+- 🎭 Animazioni fluide e professionali
+- 📱 Completamente responsive (mobile-first)
+- ⚡ Ottimizzato per performance con Next.js
+
+## 🛠️ Tecnologie Utilizzate
+
+- **Next.js 16** - Framework React
+- **TypeScript** - Type safety
+- **TailwindCSS** - Styling
+- **React Hooks** - State management
+
+## 📦 Installazione
+
+```bash
+npm install
+```
+
+## 🏃 Avvio del Progetto
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Apri [http://localhost:3000](http://localhost:3000) nel browser per vedere il risultato.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Personalizzazione
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Logo
+Sostituisci il file `/public/logo.png` con il tuo logo (dimensioni consigliate: 200x200px).
 
-## Learn More
+### Testi
+Modifica i testi in `app/page.tsx`:
+- Titolo principale
+- Sottotitoli
+- Messaggi del form
 
-To learn more about Next.js, take a look at the following resources:
+### Colori
+Il gradient di sfondo può essere personalizzato in `app/page.tsx` alla linea 20:
+```tsx
+bg-gradient-to-br from-pink-400 via-red-400 to-orange-400
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Social Links
+Aggiorna gli href dei link social in `app/page.tsx` (linee 81-108).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deploy
 
-## Deploy on Vercel
+### Vercel (Consigliato)
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy su [Vercel](https://vercel.com) con un click.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Altri Provider
+Il progetto è compatibile con qualsiasi provider che supporti Next.js (Netlify, AWS, etc.).
+
+## 📄 Licenza
+
+© 2026 VAIKOS. Tutti i diritti riservati.
